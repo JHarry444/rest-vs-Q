@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.qa</groupId>
-	<artifactId>Consumer-cne</artifactId>
+	<artifactId>Consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Consumer-cne</name>
+	<name>Consumer</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -19,7 +19,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-activemq</artifactId>
+			<artifactId>spring-boot-starter-artemis</artifactId>
+			<!-- <artifactId>spring-boot-starter-activemq</artifactId> -->
 		</dependency>
 
 		<dependency>
